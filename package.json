@@ -1,6 +1,6 @@
 {
-  "name": "vipada-srisawat",
-  "version": "1.2.0",
+  "name": "vipada-liabeuf",
+  "version": "1.3.0",
   "description": "Tanny's Online Portfolio",
   "main": "index.js",
   "dependencies": {
@@ -16,7 +16,11 @@
     "gulp-uglify": "^1.5.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
   },
   "repository": {
     "type": "git",
@@ -27,5 +31,5 @@
   "bugs": {
     "url": "https://github.com/tannytann/tannytann.github.io/issues"
   },
-  "homepage": "https://vipada.srisawat.me"
+  "homepage": "https://vipada.liabeuf.fr"
 }
