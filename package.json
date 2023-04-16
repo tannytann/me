@@ -7,7 +7,7 @@
     "hint.css": "^2.3.0"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-clean-css": "^2.0.7",
     "gulp-concat-css": "^2.2.0",
     "gulp-concat-util": "^0.5.5",
